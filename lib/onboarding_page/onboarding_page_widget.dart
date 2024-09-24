@@ -78,15 +78,15 @@ class _OnboardingPageWidgetState extends State<OnboardingPageWidget> {
                               Text(
                                 'Profile',
                                 style: FlutterFlowTheme.of(context)
-                                    .headlineLarge
+                                    .displaySmall
                                     .override(
                                       fontFamily: FlutterFlowTheme.of(context)
-                                          .headlineLargeFamily,
+                                          .displaySmallFamily,
                                       letterSpacing: 0.0,
                                       useGoogleFonts: GoogleFonts.asMap()
                                           .containsKey(
                                               FlutterFlowTheme.of(context)
-                                                  .headlineLargeFamily),
+                                                  .displaySmallFamily),
                                     ),
                               ),
                             ],

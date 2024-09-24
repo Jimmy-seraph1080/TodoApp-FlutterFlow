@@ -276,7 +276,7 @@ class _DetailsWidgetState extends State<DetailsWidget> {
                                 controller: _model.textController2,
                                 focusNode: _model.textFieldFocusNode2,
                                 autofocus: false,
-                                readOnly: _model.editingMode,
+                                readOnly: !_model.editingMode,
                                 obscureText: false,
                                 decoration: InputDecoration(
                                   isDense: true,
