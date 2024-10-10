@@ -117,6 +117,11 @@ GoRouter createRouter(AppStateNotifier appStateNotifier) => GoRouter(
               ParamType.Document,
             ),
           ),
+        ),
+        FFRoute(
+          name: 'Welcome_Email',
+          path: '/welcomeEmail',
+          builder: (context, params) => const WelcomeEmailWidget(),
         )
       ].map((r) => r.toRoute(appStateNotifier)).toList(),
     );
